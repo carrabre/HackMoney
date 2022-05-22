@@ -1,0 +1,537 @@
+
+@font-face {
+    font-family: 'Lulo-Clean-W01-One';
+    src: local('Lulo-Clean-W01-One'), url(../fonts/Lulo-Clean-W01-One.ttf) format('truetype');
+  }
+@font-face {
+    font-family: 'Roboto';
+    src: local('roboto-md.ttf'), url(../fonts/roboto-md.ttf) format('truetype');
+  }
+
+
+ul.mb-3.nav.nav-tabs {
+    justify-content: center;
+    border: 0;
+}
+ul.mb-3.tab-new.nav.nav-tabs li {
+    background-color: #E5E5E5;
+}
+ul:first-child li:first-child {
+    border-top-left-radius: 47px;
+    border-bottom-left-radius: 47px;
+}
+ul:first-child li:last-child{
+    border-bottom-right-radius: 47px;
+    border-top-right-radius: 47px;
+}
+/* button#noanim-tab-example-tab-home {
+    background-color: #A6E3E9;
+    border-radius: 30px;
+} */
+.tabbar .nav-link:active{
+    background-color: #A6E3E9;
+    border-radius: 30px;
+}
+.tabbar .nav-link:hover{
+    background-color: #E5E5E5;
+    border-radius: 30px;
+    border: none;
+    
+}
+.tabbar .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #A6E3E9;
+    border-radius: 47px;
+    padding: 8px 17px
+}
+
+.tabbar .nav-tabs .nav-link{
+    color: #fff;
+    border: none;
+    transition: none;
+}
+/* .tabbar li.nav-item {
+    padding: 0 0;
+} */
+ul.mb-3.tab-new.nav.nav-tabs {
+    font-family: 'Lulo-Clean-W01-One';
+}
+
+/* Swap Card Start */
+.swap-card.card {
+    width: 751px;
+    height: fit-content;
+    margin: auto;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px 3px rgb(0 0 0 / 25%);
+    border-radius: 40px;
+    padding: 25px 48px;
+}
+
+input.swap.form-control {
+    width: 421px;
+    height: 100px;
+    border-radius: 47px;
+}
+input.swap.form-control::placeholder{
+    font-size: 30px;;
+}
+label.swapdollar {
+    position: relative;
+    bottom: 32px;
+    right: -11px;
+    font-size: 12px;
+}
+.swapwap2 p {
+    background: #FFFFFF;
+    border-radius: 47px;
+    width: 83px;
+    height: 70px;
+    padding: 24px 0px 0 0;
+    text-align: center;
+    border: 1px solid #ced4da;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 12px;
+}
+.swap-row.row {
+    margin: 5px 0px;
+}
+hr.horizontal-row {
+    margin: 6px;
+}
+
+tbody.swap-tabbody tr td {
+    border: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+
+a.swap-ifo {
+    color: #fff;
+    background-color: #A6E3E9;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 0;
+    align-items: center;
+    text-align: center;
+    padding: 12px 3px;
+    border-radius: 40px;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+button.swap-btncrn.btn.btn-outlined {
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+.swap-table {
+    margin: 6px 48px;
+    margin-bottom: 0;
+}
+/* Swap Card End */
+/* -------------------------------------------- */
+/* Pool Card Start */
+
+.pool-card.card {
+    width: 956px;
+    height: 246px;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.pool-upper.row {
+    margin-top: 110px;
+    margin-right: 38px;
+}
+.pool-btncrn{
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    padding: 10px 30px;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+h1.headtext {
+    margin: auto;
+    margin-right: 62px;
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: revert;
+}
+
+table.table {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+}
+a.pool-ifo {
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    padding: 10px 5px;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Pool Card End */
+/* -------------------------------------------- */
+/* Explore Card Start */
+
+.explore-card.card {
+    border-radius: 40px;
+    width: 956px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 118.21px;
+    top: 20%;
+    padding: 0 30px;
+}
+
+/* Explore Card End */
+thead.explore-table tr td
+{
+    
+ position: absolute;
+left: 6.38%;
+right: 87.03%;
+top: 32.11%;
+bottom: 53.66%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+}
+
+tr {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.info-wrap{
+    position: absolute;
+left: 48.54%;
+right: 38.08%;
+top: 17.43%;
+bottom: 66.49%;
+
+background: #A6E3E9;
+border-radius: 40px;
+}
+tbody.explore-row tr td{
+    position: absolute;
+    left: 48.54%;
+    right: 38.08%;
+    top: 17.43%;
+    bottom: 66.49%;
+    
+    background: #A6E3E9;
+    border-radius: 40px;
+}
+th{
+    background-color: aquamarine;
+    border-radius:40px;
+
+}
+.quantity-input {
+    border-radius: 40px;
+    border: 1px solid #E5E5E5;
+    background-color: #fff;
+    padding: 9px 0;
+    margin-top: 26px;
+}
+.quantity-input:focus {
+    background: red;
+}
+.quantity-input__modifier, .quantity-input__screen {
+    user-select: none;
+    outline: none;
+}
+.quantity-input__modifier {
+    width: 30px;
+    height: 30px;
+    background: #7A7A7A;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    position: relative;
+    bottom: 7px;
+}
+.quantity-input__modifier:hover {
+    background: #7a7a7a;
+    color: #fff;
+}
+.quantity-input__screen {
+    width: 8rem;
+    padding: 0 0;
+    font-size: 36px;
+    border: 0;
+    border-top: 0 solid #dbdbdb;
+    border-bottom: 0 solid #dbdbdb;
+    text-align: center;
+    font-weight: 600;
+}
+.quantity-input p {
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+}
+.liquidity-card.card {
+    padding: 35px 40px;
+}
+a.Info2 {
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    background-color: #A6E3E9;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 11px;
+    border-radius: 40px;
+}
+.explore-card.card td {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    padding: 18px 0;
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.swap-table td {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.Explore-tables.table th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+}
+h1.h1explore {
+    font-family: Sanseriffic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.tabbar .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #A6E3E9;
+    border-radius: 47px;
+    padding: 7px 4px;
+}
+.swap-card.card {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px 3px rgb(0 0 0 / 25%);
+    border-radius: 40px;
+    padding: 30px 20px;
+
+}
+input.swap.form-control {
+    width: 100%;
+    height: 66px;
+    border-radius: 47px;
+}
+.swapwap2 p {
+    background: #FFFFFF;
+    border-radius: 47px;
+    width: 76px;
+    height: 66px;
+    padding: 18px 0px 0 0;
+    text-align: center;
+    border: 1px solid #ced4da;
+    font-size: 20px;
+    margin: auto;
+}
+.swap-card.card .col-sm-6 {
+    width: 50% !important;
+}
+.pool-upper .col-sm-6 {
+    width: 50% !important;
+}
+
+.swap {
+    display: block;
+    padding-bottom: 20px !important;
+    padding: 0 11px;
+    font-size: 2rem !important;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.swap-table {
+    margin: 0px;
+    margin-bottom: 0;
+}
+a.swap-ifo {
+    color: #fff;
+    background-color: #A6E3E9;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 0;
+    align-items: center;
+    text-align: center;
+    padding: 9px 3px;
+    border-radius: 25px;
+    text-decoration: none;
+    position: relative;
+}
+tbody.swap-tabbody tr td {
+    border: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.swap-table td {
+    padding: 15px 0 0 15px;
+}
+
+.pool-card.card {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+h1.headtext {
+    font-size: 30px;
+    margin-right: 18px;
+    margin-top: 13px;
+}
+
+.pool-btncrn {
+    padding: 10px 6px;
+    font-size: 11px;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+}
+.pool-upper.row {
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+
+.pool-table td {
+    padding: 8px 0 0 9px;
+}
+
+.pool-table td {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+}
+a.pool-ifo {
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    padding: 7px 5px;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.explore-card.card {
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Sanseriffic';
+  /* src: local('Sanseriffic'), url(./fonts/Sanseriffic.otf) format('truetype'); */
+  src: local('Sanseriffic'), url(./fonts/sanseriffic-webfont.woff) format('woff');
+
+}
+
+@font-face {
+  font-family: 'Lulo-Clean-W01-One';
+  src: local('Lulo-Clean-W01-One'), url(./fonts/Lulo-Clean-W01-One.ttf) format('truetype');
+  /* src: local('Lulo-Clean-W01-One'), url(./f) format('truetype'); */
+}
+
+body {
+  margin: 0;
+  font-family: 'Sanseriffic' , 'Lulo-Clean-W01-One.ttf';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'sans-serif',-apple-system, BlinkMacSystemFont, */
+code {
+  font-family: 'Sanseriffic','Lulo-Clean-W01-One.ttf';
+  /* source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+/* div#root{
+  overflow: hidden;
+} */
+.btn {
+  padding: 0.375rem 0.75rem !important;
+}
+

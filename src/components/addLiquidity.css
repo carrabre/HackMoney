@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('roboto-md.ttf'), url(../fonts/roboto-md.ttf) format('truetype');
+  }
+
+
+
+.liquidity-card.card{
+    width: 568px;
+    height: 443px;
+    margin : auto ;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px 3px rgb(0 0 0 / 25%);
+    border-radius: 40px;
+    top: 164px;
+}
+input.liq-inpt {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+h4.inp-amt {
+    font-family: 'Roboto';
+    font-weight: 200 !important;
+    justify-content: center;
+}
+
+input.liq-inpt {
+    border-top-style: hidden !important;
+    border-right-style: hidden !important;
+    border-left-style: hidden !important;
+    background: transparent;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: baseline;
+    color: #000000;
+    width: 100px;
+    text-align: center;
+   margin:auto; 
+   padding: 10px;
+    border: 1px solid rgba(196, 196, 196, 0.8);
+}
+
+.liq-btn p {
+    background: #FFFFFF;
+    border-radius: 47px;
+    width: 83px;
+    height: 70px;
+    padding: 24px 0px 0 0;
+    text-align: center;
+    border: 1px solid #ced4da;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+button.liq-btn.btn.btn-outlined {
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    padding: 10px 104px;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 29px;
+    margin-top: 60px;
+}
+
+h1.text-liq {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+}
+a.anchorliquidity {
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    padding: 13px 66px;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 180px;
+}
+@media only screen and (max-width: 600px) {
+    .liquidity-card.card {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background: #FAFAFA;
+        box-shadow: 0px 4px 4px 3px rgb(0 0 0 / 25%);
+        border-radius: 40px;
+        top: 50px;
+    }
+    .quantity-input__screen {
+        width: 6rem;
+        padding: 0 0;
+        font-size: 36px;
+        border: 0;
+        border-top: 0 solid #dbdbdb;
+        border-bottom: 0 solid #dbdbdb;
+        text-align: center;
+        font-weight: 600;
+    }
+    .newliquidity {
+        margin-top: 16px;
+    }
+.liquidity-card.card .col-lg-3 {
+    width: 50%;
+}
+.liquidity-card.card .col-lg-3.two {
+    order: 2;
+}
+}

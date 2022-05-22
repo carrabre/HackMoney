@@ -1,0 +1,39 @@
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('../../assets/images/Vector\ \(2\).png')
+}
+
+/* img.topbtn-img {
+    margin: 0 0 2px 12px;
+    float: none;
+} */
+
+button.topbar-btn.connct-wallet-btn.btn.btn-outlined {
+    width: 273px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+    height: 40px;
+    justify-content: center;
+    margin: 0 80px;
+    padding-left: 48px !important;
+}
+button.topbar-btn.connct-wallet-btn.btn.btn-outlined img {
+    padding-left: 0px !important;
+}
+
+a.nav-link {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+}
+
+@media only screen and (max-width: 600px){
+    button.topbar-btn.connct-wallet-btn.btn.btn-outlined {
+        width: 120px;
+    }
+
+}

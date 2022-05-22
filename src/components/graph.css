@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Lulo-Clean-W01-One';
+    src: local('Lulo-Clean-W01-One'), url(../fonts/Lulo-Clean-W01-One.ttf) format('truetype');
+}
+
+.graph-cont.container {
+    overflow: hidden;
+}   
+select#type {
+    display: none;
+}
+.main-chart label {
+    display: none !important;
+}
+.chart-text {
+    text-align: left;
+    display: flex;
+}
+
+.h5, h5 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #000000;
+}
+span {
+    font-size: 12px;
+    color: #000000;
+}
+.card-main.card {
+    background-color: #F6F6F7;
+    border: 0;
+    border-radius: 40px;
+    padding: 58px 0 16px;
+}
+tbody.chart-tabbody span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    font-weight: 500;
+}
+tbody.chart-tabbody tr td {
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    font-weight: 500;
+    border: 0;
+}
+tr.tfooetr td {
+    color: #000 !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding-top: 0;
+}
+table.table tr.tfooetr {
+    border: 0;
+    border-style: hidden;
+}
+tbody.chart-tabbody {
+    text-align: initial;
+}
+a.info {
+    color: #fff;
+    background-color: #A6E3E9;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    padding: 16px 9px;
+    border-radius: 40px;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+}
+.chart-table h1 ,.chart-table2 h1 {
+    text-align: initial;
+    font-size: 20px;
+    margin-left: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.chart-table h1 span ,.chart-table2 h1 span {
+    text-transform: none;
+    font-weight: 500;
+}
+.main-chart {
+    margin-left: 73px;
+}
+input.palcing.form-control {
+    background: #FFFFFF;
+    border-radius: 47px;
+    width: 112px;
+    height: 81px;
+    padding: 0 18px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+input.palcing.form-control::placeholder{
+    font-size: 30px;
+}
+label.doller {
+    position: relative;
+    bottom: 32px;
+    right: -11px;
+    font-size: 12px;
+}
+label.doller {
+    padding: 6px 5px;
+    font-size: 12px;
+}
+.inputwap2 p {
+    background: #FFFFFF;
+    border-radius: 47px;
+    width: 83px;
+    height: 70px;
+    padding: 24px 0px 0 0;
+    text-align: center;
+    border: 1px solid #ced4da;
+    font-size: 20px;
+}
+svg.react-stockchart {
+    position: relative !important;
+}
+button.Swap.btn.btn-outlined {
+    background-color: #A6E3E9;
+    color: #fff;
+    border-radius: 47px;
+    padding: 0 165px 0 72px !important;
+    font-family: 'Lulo-Clean-W01-One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 64px;
+}
+img.dai-img {
+    margin: 0 3px;
+    margin-bottom: 5px;
+}
+.chart-table2 {
+    text-transform: uppercase ;
+}
+.chart-table {
+    text-transform: uppercase ;
+}
+.graphnav-btn{
+    top:95px;
+    flex-wrap: wrap !important;
+}
+
+
+
+
+.graphnav-btn a.nav-link {
+    top: 66px;
+    flex-wrap: wrap !important;
+    margin: 0px !important;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: black;
+    border-radius: 40px;
+    
+}
+.nav-pills .nav-link.active{
+background-color: #A6E3E9;
+}
+.fordesktop {
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+
+@media only screen and (max-width: 600px) {
+.card-main.card {
+    background-color: #F6F6F7;
+    border: 0;
+    border-radius: 40px;
+    padding: 25px;
+}
+.main-chart {
+    margin-left: 0;
+}
+.fordesktop {
+    width: 120%;
+}
+.right-currence .col-sm-6 {
+    width: 50% !important;
+}
+button.Swap.btn.btn-outlined {
+    margin-top: 20px;
+}
+.graphnav-btn a.nav-link {
+    font-size: 10px;
+}
+
+.inputwap2 p {
+    border-radius: 25px;
+    width: 77px;
+    height: 58px;
+    padding: 16px 0px 0 0;
+}
+input.palcing.form-control {
+    width: 100%;
+    height: 62px;
+    padding: 0px 10px;
+    padding-bottom: 18px;
+}
+.right-currence .inputwap {
+    margin-top: 6px;
+}
+}
